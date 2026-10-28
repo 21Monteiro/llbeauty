@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LL Beauty Clinic — Sobrancelhas, Cílios e Unhas em Bragança Paulista</title>
+<meta name="description" content="Sobrancelhas, cílios, unhas e micropigmentação em um só lugar, no Centro de Bragança Paulista. Três especialistas e 5 estrelas no Google. Agende online.">
+<meta name="theme-color" content="#F0E0D0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css?v=44">
+</head>
+<body>
+
+<!-- trilhos laterais: preenchem conforme a página rola. Só no desktop largo. -->
+<div class="trilhos" aria-hidden="true">
+  <span class="trilho trilho--esq"><i></i><b>LL Beauty Clinic</b></span>
+  <span class="trilho trilho--dir"><i></i></span>
+</div>
+
+<!-- BLOCO 0 — barra fixa -->
+<header class="barra" id="barra">
+  <a class="barra__marca" href="#topo" aria-label="LL Beauty Clinic, ir para o topo">
+    <span class="monograma monograma--barra" aria-hidden="true">
+      <span class="monograma__ll"><i>L</i><i>L</i></span>
+      <span class="monograma__nome">Beauty</span>
+    </span>
+  </a>
+  <nav class="barra__nav" aria-label="Seções">
+    <a href="#servicos">Serviços</a>
+    <a href="#studio">O studio</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#duvidas">Dúvidas</a>
+  </nav>
+  <a class="btn btn--vinho barra__cta" href="agendar.html" data-cta="barra">Agendar</a>
+</header>
+
+<main id="topo">
+
+  <!-- BLOCO 1 — hero: texto à esquerda, a Laize ao centro, números à direita -->
+  <section class="hero" data-variante="studio">
+    <picture class="hero__arte hero__arte--laize">
+      <source media="(min-width:1020px)" srcset="img/hero-fundo.jpg" width="2458" height="1024">
+      <img class="hero__fundo" src="img/hero-fundo-mobile.jpg" alt="Laize Lucena, fundadora do LL Beauty Clinic" loading="lazy" width="1024" height="1536">
+    </picture>
+    <picture class="hero__arte hero__arte--studio">
+      <img class="hero__fundo hero__fundo--studio" src="img/hero-studio.jpg" alt="Sala de espera do LL Beauty Clinic, com a parede de flores e as poltronas de veludo" fetchpriority="high" width="1536" height="1024">
+    </picture>
+    <div class="hero__texto">
+      <span class="hero__selo">“Melhor micropigmentadora de Bragança” — comentário feito por Gabrielle Andrade, cliente, no Google</span>
+      <h1>Sobrancelha, cílio e unha, <em>uma agenda só</em></h1>
+      <p class="h2">Três especialistas cuidando de você, no Centro de Bragança Paulista.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--vinho btn--grande" href="agendar.html" data-cta="hero">Agendar meu horário</a>
+        <a class="btn btn--linha" href="#servicos">Ver serviços</a>
+      </div>
+    </div>
+    <ul class="numeros">
+      <li><b>5 ★</b><span>a nota que as clientes dão no Google</span></li>
+      <li><b>30</b><span>procedimentos na mesma agenda</span></li>
+      <li><b>3</b><span>especialistas, uma para cada cuidado</span></li>
+    </ul>
+    <!-- ferramenta de apresentação: mostra as duas artes da hero. Sai do ar
+         junto com as outras marcações de pendência, antes de publicar. -->
+    <button class="alternar" type="button" data-alternar data-pendencia-ferramenta>Ver o espaço</button>
+  </section>
+
+  <!-- BLOCO 2 — faixa de credibilidade -->
+  <div class="faixa" aria-label="Credenciais">
+    <ul class="faixa__lista">
+      <li>5 estrelas no Google</li><li>3 especialistas</li><li>30 procedimentos</li><li>Centro de Bragança Paulista</li>
+      <li>5 estrelas no Google</li><li>3 especialistas</li><li>30 procedimentos</li><li>Centro de Bragança Paulista</li>
+    </ul>
+  </div>
+
+  <!-- BLOCO 3 — mosaico do que se resolve aqui -->
+  <section class="secao" id="categorias">
+    <p class="chapeu">O que você resolve aqui</p>
+    <h2 class="titulo">Seis cuidados, <em>uma agenda só</em></h2>
+    <p class="linha">Uma tarde resolve o que antes pedia três sábados.</p>
+    <ul class="mosaico">
+      <li><a href="#servicos"><img src="img/serv-unhas.jpg" alt="Unhas finalizadas em alongamento" loading="lazy" width="800" height="1000"><span>Unhas</span></a></li>
+      <li><a href="#servicos"><img src="img/serv-cilios.jpg" alt="Olhar com extensão de cílios" loading="lazy" width="800" height="1000"><span>Cílios</span></a></li>
+      <li><a href="#servicos"><img src="img/serv-micro.jpg" alt="Sobrancelha com micropigmentação" loading="lazy" width="800" height="1000"><span>Micro e nano</span></a></li>
+      <li><a href="#servicos"><img src="img/serv-sobrancelhas.jpg" alt="Design de sobrancelhas finalizado" loading="lazy" width="800" height="1000"><span>Sobrancelhas</span></a></li>
+      <li><a href="#servicos"><img src="img/serv-maquiagem.jpg" alt="Maquiagem finalizada" loading="lazy" width="800" height="1000"><span>Maquiagem</span></a></li>
+      <li><a href="#servicos"><img src="img/serv-depilacao.jpg" alt="Procedimento de depilação facial" loading="lazy" width="800" height="1000"><span>Depilação</span></a></li>
+    </ul>
+  </section>
+
+  <!-- BLOCO 4 — mecanismo, um pilar por vez -->
+  <section class="secao secao--escura" id="porque">
+    <p class="chapeu">Por que a LL Beauty</p>
+    <p class="tagline">Beleza não é seguir um padrão. É encontrar o seu.</p>
+    <h2 class="titulo titulo--claro">O Método <em>Cada Detalhe</em></h2>
+    <div class="pilares" id="pilares"></div>
+    <p class="ancora">Naturalidade também é técnica.</p>
+    <a class="btn btn--dourado" href="agendar.html" data-cta="mecanismo">Quero ser atendida assim</a>
+  </section>
+
+  <!-- BLOCO 5 — roadmap -->
+  <section class="secao" id="visita">
+    <p class="chapeu">Como é a sua visita</p>
+    <h2 class="titulo">Do agendamento <em>ao retorno</em></h2>
+    <p class="linha">Seis momentos, nenhuma surpresa.</p>
+    <ol class="marcos">
+      <li><b>Você escolhe pela agenda online.</b><span>Procedimento, profissional e horário, com a duração na frente. Sem perguntar no direct e esperar resposta.</span></li>
+      <li><b>Você chega e desacelera.</b><span>Recepção, um café e a poltrona da sala de espera. Se chegar cedo, melhor: esse tempo também é seu.</span></li>
+      <li><b>A gente conversa antes de começar.</b><span>O que você quer, o que combina com os seus traços e o que é possível hoje. Se o melhor caminho for outro, a gente fala.</span></li>
+      <li><b>O procedimento, no tempo que ele pede.</b><span>Duas horas para um banho de gel. Três para um alongamento. Duas para a micropigmentação. A gente não corre.</span></li>
+      <li><b>Você sai sabendo como cuidar.</b><span>Orientação de cuidado para os primeiros dias, de acordo com o que foi feito.</span></li>
+      <li><b>O retorno já nasce marcado.</b><span>Banho de gel, alongamento e cílios pedem manutenção a cada 15 a 20 dias. Micropigmentação, retoque uma vez por ano.</span></li>
+    </ol>
+    <p class="fecho">Sua próxima tarde boa começa aqui.</p>
+    <a class="btn btn--vinho" href="agendar.html" data-cta="roadmap">Escolher meu horário</a>
+  </section>
+
+  <!-- BLOCO 6 — o espaço -->
+  <section class="studio" id="studio">
+    <div class="studio__texto">
+      <p class="chapeu">O studio</p>
+      <h2 class="titulo">O lugar é parte <em>do procedimento</em></h2>
+      <p class="linha">Parede de flores, poltrona de veludo e café na mão. Você vai passar duas horas aqui.</p>
+    </div>
+    <div class="galeria" role="region" aria-label="Fotos do studio" tabindex="0">
+      <figure><img src="img/espaco-espera.jpg" alt="Sala de espera com parede de flores e poltronas de veludo" loading="lazy" width="1086" height="1448"><figcaption>A sala de espera, onde ninguém tem pressa.</figcaption></figure>
+      <figure><img src="img/espaco-recepcao.jpg" alt="Recepção com o letreiro LL Beauty iluminado" loading="lazy" width="1086" height="1448"><figcaption>A recepção, e o nome que a gente construiu do zero.</figcaption></figure>
+      <figure><img src="img/espaco-cafe.jpg" alt="Xícara de café servida no studio" loading="lazy" width="1086" height="1448"><figcaption>O café, porque duas horas pedem um.</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- BLOCO 7 — compromisso -->
+  <section class="secao secao--nude" id="compromisso">
+    <p class="chapeu">Nosso compromisso</p>
+    <h2 class="titulo">Conversar antes, <em>em vez de consertar depois</em></h2>
+    <ul class="compromissos">
+      <li><h3>Avaliação antes, sempre</h3><p>Na micropigmentação, a avaliação é um horário próprio, de 40 minutos. Serve para analisar a região, entender o que você quer e dizer com honestidade qual técnica cabe no seu caso. Se não couber nenhuma, a gente fala.</p></li>
+      <li><h3>Desenho individual, sem molde</h3><p>Nenhuma sobrancelha sai daqui igual à da cliente anterior. O desenho respeita os seus traços e é construído na hora, com você olhando.</p></li>
+      <li><h3>Duração declarada, sem letra miúda</h3><p>A micropigmentação labial dura, em média, de um a três anos, variando conforme o organismo e os cuidados de cada pessoa. Nas sobrancelhas, o retoque anual mantém a cor e a definição.</p></li>
+    </ul>
+    <a class="btn btn--vinho btn--grande" href="agendar.html" data-cta="compromisso">Agendar minha avaliação</a>
+  </section>
+
+  <!-- BLOCO 8 — equipe, tres paineis colados -->
+  <section class="equipe" id="equipe">
+    <div class="equipe__intro">
+      <p class="chapeu">Quem cuida de você</p>
+      <h2 class="titulo">Três profissionais, <em>três especialidades</em></h2>
+      <p class="tagline tagline--escura">Começou na sala de casa.</p>
+    </div>
+    <div class="paineis">
+      <article class="painel">
+        <img src="img/equipe-laize.jpg" alt="Laize Lucena, especialista em sobrancelhas e micropigmentação" loading="lazy" width="1086" height="1448">
+        <span class="painel__rotulo">Sobrancelhas</span>
+        <div class="painel__pe">
+          <h3>Laize Lucena</h3>
+          <p>Sobrancelhas, micropigmentação e nanopigmentação. Fundadora do LL Beauty.</p>
+          <a class="btn btn--mini" href="agendar.html" data-cta="equipe-laize">Agendar com a Laize</a>
+        </div>
+      </article>
+      <article class="painel">
+        <img src="img/equipe-stefanny.jpg" alt="Stefanny Silva, especialista em unhas" loading="lazy" width="1086" height="1448">
+        <span class="painel__rotulo">Unhas</span>
+        <div class="painel__pe">
+          <h3>Stefanny Silva</h3>
+          <p>Alongamento, banho de gel, manicure e pedicure.</p>
+          <a class="btn btn--mini" href="agendar.html" data-cta="equipe-stefanny">Agendar com a Stefanny</a>
+        </div>
+      </article>
+      <article class="painel">
+        <img src="img/equipe-rachel.jpg" alt="Rachel Araujo, especialista em extensão de cílios" loading="lazy" width="1086" height="1448">
+        <span class="painel__rotulo">Cílios</span>
+        <div class="painel__pe">
+          <h3>Rachel Araujo</h3>
+          <p>Extensão em todas as técnicas e lash lift.</p>
+          <a class="btn btn--mini" href="agendar.html" data-cta="equipe-rachel">Agendar com a Rachel</a>
+        </div>
+      </article>
+    </div>
+    <p class="nota-placeholder" data-pendencia><b>Placeholder.</b> Os três retratos foram gerados por IA a partir das fotos reais da Laize, da Stefanny e da Rachel. Servem para mostrar o enquadramento, a luz e o figurino. Substituir por um ensaio real antes de publicar.</p>
+  </section>
+
+  <!-- BLOCO 9 — bento dos servicos -->
+  <section class="secao" id="servicos">
+    <p class="chapeu">Serviços</p>
+    <h2 class="titulo">Escolha por onde <em>começar</em></h2>
+    <p class="linha">Toque na categoria e caia direto na nossa agenda online.</p>
+    <div class="bento" id="bento"></div>
+  </section>
+
+  <!-- BLOCO 10 — depoimentos -->
+  <section class="secao secao--nude" id="avaliacoes">
+    <p class="chapeu">Avaliações</p>
+    <h2 class="titulo">Não precisa <em>acreditar na gente</em></h2>
+    <p class="linha">O que as clientes escreveram no Google, sem edição.</p>
+    <ul class="depoimentos" id="depoimentos"></ul>
+    <a class="link-discreto" href="https://www.google.com/search?q=LL+Beauty+Clinic+Bragan%C3%A7a+Paulista" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>
+  </section>
+
+  <!-- BLOCO 11 — FAQ -->
+  <section class="secao" id="duvidas">
+    <p class="chapeu">Dúvidas</p>
+    <h2 class="titulo">O que mais perguntam <em>no direct</em></h2>
+    <div class="faq" id="faq"></div>
+    <div class="faq__acoes">
+      <a class="btn btn--linha" href="https://wa.me/5511934870551?text=Oi%2C%20vim%20pelo%20site%20e%20tenho%20uma%20d%C3%BAvida" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      <a class="btn btn--vinho" href="agendar.html" data-cta="faq">Agendar horário</a>
+    </div>
+  </section>
+
+  <!-- BLOCO 12 — onde ficamos -->
+  <section class="secao secao--escura" id="onde">
+    <p class="chapeu">Onde ficamos</p>
+    <h2 class="titulo titulo--claro">No Centro de Bragança, <em>com hora marcada</em></h2>
+    <div class="monograma monograma--grande" aria-hidden="true">
+      <span class="monograma__ll"><i>L</i><i>L</i></span>
+      <span class="monograma__nome">Beauty</span>
+    </div>
+    <div class="onde">
+      <address>
+        Rua José Guilherme, 342<br>
+        Ponto Rosa, Centro<br>
+        Bragança Paulista, SP · 12900-231
+      </address>
+      <p class="sr" id="rotulo-semana">Dias de funcionamento</p>
+      <ul class="semana" aria-labelledby="rotulo-semana">
+        <li class="fechado"><b>Seg</b><i aria-hidden="true">×</i><span class="sr">Fechado</span></li>
+        <li><b>Ter</b><i>9h<br>19h</i></li>
+        <li><b>Qua</b><i>8h<br>20h</i></li>
+        <li><b>Qui</b><i>8h<br>19h</i></li>
+        <li><b>Sex</b><i>8h<br>20h</i></li>
+        <li><b>Sáb</b><i>8h<br>17h</i></li>
+        <li class="fechado"><b>Dom</b><i aria-hidden="true">×</i><span class="sr">Fechado</span></li>
+      </ul>
+      <p class="nota">Fechamos para o almoço, das 12h às 13h. Quarta e sexta vamos até as 20h, para quem sai do trabalho às 18h.</p>
+      <div class="onde__acoes">
+        <a class="btn btn--dourado" href="agendar.html" data-cta="onde">Agendar meu horário</a>
+        <a class="btn btn--linha btn--linha-clara" href="https://www.google.com/maps/dir/?api=1&destination=R.+Jos%C3%A9+Guilherme%2C+342+-+Centro%2C+Bragan%C3%A7a+Paulista+-+SP%2C+12900-231" target="_blank" rel="noopener">Como chegar</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- BLOCO 13 — rodape -->
+<footer class="rodape">
+  <figure class="rodape__foto" data-pendencia>
+    <img src="img/espaco-recepcao.jpg" alt="Recepção do LL Beauty Clinic, com o letreiro iluminado" loading="lazy" width="900" height="1125">
+    <figcaption>Rua José Guilherme, 342, no Centro de Bragança Paulista.</figcaption>
+  </figure>
+  <p class="rodape__marca">LL Beauty Clinic</p>
+  <p>Rua José Guilherme, 342, Centro, Bragança Paulista/SP</p>
+  <p><a href="https://wa.me/5511934870551" target="_blank" rel="noopener">WhatsApp (11) 93487-0551</a> · <a href="mailto:laizelucenaoli@icloud.com">laizelucenaoli@icloud.com</a></p>
+  <p><a href="https://www.instagram.com/llbeauty_co/" target="_blank" rel="noopener">Instagram @llbeauty_co</a> · <a href="agendar.html" data-cta="rodape">Agendamento online</a></p>
+  <p class="rodape__tagline">Cada detalhe por um único propósito: você.</p>
+  <p class="rodape__credito">Desenvolvido por <a href="https://www.instagram.com/apenasites/" target="_blank" rel="noopener">Apenas Sites · @apenasites</a></p>
+</footer>
+
+<script src="js/script.js?v=10" defer></script>
+</body>
+</html>

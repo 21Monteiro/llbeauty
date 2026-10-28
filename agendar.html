@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agendando… — LL Beauty Clinic</title>
+<meta name="robots" content="noindex">
+<!--
+  Esta página existe para que TODOS os botões do site apontem para um lugar só.
+  Em produção ela vira um redirect 301 no servidor, na rota /agendar.
+  Trocar de plataforma de agendamento no futuro mexe só aqui.
+-->
+<style>
+  body{margin:0;min-height:100svh;display:grid;place-items:center;background:#F8EFE6;color:#221E1F;
+       font:400 16px/1.6 "Inter",system-ui,sans-serif;text-align:center;padding:24px}
+  p{margin:0 0 14px}
+  a{color:#6C1D23}
+</style>
+</head>
+<body>
+  <div>
+    <p>Levando você para a nossa agenda…</p>
+    <p><a id="manual" href="https://clini.site/llbeauty-oficial">Se não abrir sozinho, toque aqui</a></p>
+  </div>
+<script>
+  var BASE = 'https://clini.site/llbeauty-oficial';
+  var origem = new URLSearchParams(location.search).get('origem') || 'site';
+  var destino = BASE
+    + '?utm_source=site&utm_medium=cta&utm_campaign=onepage&utm_content='
+    + encodeURIComponent(origem);
+  document.getElementById('manual').href = destino;
+  location.replace(destino);
+</script>
+</body>
+</html>
